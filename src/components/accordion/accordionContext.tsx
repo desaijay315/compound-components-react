@@ -8,8 +8,8 @@ export const AccordionContext = createContext<{
 
 export const useAccordionContext = () => {
   const context = useContext(AccordionContext);
-  if (!context) {
-    throw new Error("Error in creating the context");
-  }
+  // if (!context) {
+  //   throw new Error("Accordian Context must be used within the a <Accordian>");
+  // }
   return context;
 };

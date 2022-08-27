@@ -26,7 +26,7 @@ export default function App() {
             </p>
           </AccordionPanel>
         </AccordionItem>
-        <AccordionItem label="javasrcipt">
+        <AccordionItem label="javascript">
           <AccordionButton>Javascript</AccordionButton>
           <AccordionPanel>
             This is JavaScript.
